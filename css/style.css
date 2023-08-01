@@ -1,0 +1,111 @@
+body{
+    background-image: url(../src/images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    max-width: 1440px;
+    min-height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.header{
+    margin: 50px 50px 50px 50px;
+    padding: 0 0 32px;
+}
+
+.header .logo{
+    width: 15%;
+    max-width: 100%;
+    height: auto;
+}
+
+.main .container{      
+    display: flex;
+    margin: 0 50px 0 50px;
+       
+}
+
+.main .info{
+    display: flex;
+    flex-direction: column;  
+    width: auto;     
+}
+
+.main .mockup{
+    padding: 0 50px 0 0;
+    max-width: 50%;
+}
+
+.main h1{
+    font-family: 'poppins' , sans-serif;
+    font-weight: 600;
+    font-size: 3.2vw;
+    margin: 40px 0 20px 0;
+    
+    
+}
+.main p{
+    font-family: 'open sans' , sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    margin: 10px;    
+}
+.main .btn{
+    font-family: 'poppins' , sans-serif;
+    font-weight: 400;
+    font-size: 1vw;
+    text-align: center;
+    border-radius: 25px;
+    color: hsl(257, 40%, 49%);
+    margin-top: 10px;
+    width: 11.4vw;
+    height: 2.8vw;
+    border: 1px;
+    box-shadow: 0 2px 10px rgb(27, 27, 27);
+}
+
+.btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgb(27, 27, 27);
+    transition: 0.3s ease-in-out;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end; 
+    margin: 0 70px 40px 0;
+    width: auto;
+}
+
+ul{
+    display: flex;
+    width: auto;  
+}
+
+li {
+    display: flex;
+	border: 1px solid #FFFFFF;
+	border-radius: 50%;
+	height: 35px;
+	width: 35px;
+    font-size: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+li:hover{
+    border-color: hsl(300, 69%, 71%);
+    transition: 0.3s ease-in-out;
+}
+
+i:hover{
+    color:hsl(300, 69%, 71%);
+    transition: 0.3s ease-in-out;
+}
